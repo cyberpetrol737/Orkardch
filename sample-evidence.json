@@ -1,0 +1,16 @@
+{
+  "note": "Sample evidence for trying Orkardch. Every name, address and link here is fictional or from ranges reserved for examples. Import it with: Evidence Correlator > Import evidence from a JSON file.",
+  "findings": [
+    { "type": "domain", "value": "example.org", "statementType": "observation", "source": { "description": "Typed in by the investigator when starting the case" } },
+    { "type": "dns_record", "value": "A 192.0.2.10", "statementType": "observation", "data": { "domain": "example.org", "recordType": "A", "value": "192.0.2.10" }, "source": { "provider": "sample data", "description": "Example record, not a real lookup" } },
+    { "type": "ip", "value": "192.0.2.10", "statementType": "observation", "source": { "description": "Address from the documentation range 192.0.2.0/24" } },
+    { "type": "claim", "value": "Founded in 2010", "subject": "Acme Corp", "attribute": "founding year", "source": { "url": "https://news.example.com/acme-profile", "publisher": "Example News", "retrievedAt": "2026-01-05T10:00:00Z" } },
+    { "type": "claim", "value": "Founded in 2010", "subject": "Acme Corp", "attribute": "founding year", "source": { "url": "https://blog.example.net/about-acme", "publisher": "Example Blog" } },
+    { "type": "claim", "value": "Founded in 2012", "subject": "Acme Corp", "attribute": "founding year", "source": { "url": "https://registry.example.org/acme", "publisher": "Example Registry" } },
+    { "type": "username", "value": "jane_doe", "source": { "url": "https://social-one.example/jane_doe" } },
+    { "type": "username", "value": "janedoe", "source": { "url": "https://social-two.example/janedoe" } },
+    { "type": "organization", "value": "Acme Corp", "source": { "description": "Printed on a business card" } },
+    { "type": "organization", "value": "Acme Corporation Ltd", "source": { "url": "https://registry.example.org/acme" } },
+    { "type": "note_to_self", "value": "This record has no source on purpose, so it is rated Unknown." }
+  ]
+}

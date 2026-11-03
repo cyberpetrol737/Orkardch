@@ -1,0 +1,15 @@
+{
+  "name": "orkardch",
+  "version": "1.0.0",
+  "description": "Termux-friendly OSINT command center: file forensics, public web research, network intelligence, evidence correlation, TunnelR integration and Mother, a built-in teacher. Zero runtime dependencies.",
+  "private": true,
+  "bin": { "orkardch": "orkardch.js" },
+  "scripts": {
+    "start": "node orkardch.js",
+    "test": "node --test",
+    "doctor": "node orkardch.js --doctor",
+    "install-launcher": "node orkardch.js --install-launcher"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["osint", "termux", "forensics", "dns", "evidence", "cli"]
+}
